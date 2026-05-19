@@ -51,7 +51,7 @@ function App() {
   return (
 
     <div className='m-5 flex flex-col items-center justify-center gap-4'>
-<div>Revan git</div>
+<div>Ramin git</div>
  
       <FormTodo submitHandler={submitHandler} input={input} setInput={setInput} />
       <Todos todos={todos} />
