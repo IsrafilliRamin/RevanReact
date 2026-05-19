@@ -1,0 +1,44 @@
+@use 'base';
+
+$orange : #ff6600;
+$blue : #00ccff;
+
+%button {
+  border: 1px solid #1bd811;
+  padding: 10px;
+  color: #e81616;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 100px
+}
+
+
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, .25);
+  color: #fff;
+}
+
+
+
+
+.x{
+    @include theme;
+}
+
+
+header{
+    height: 70px;
+    background-color: $orange;
+    ul{
+        display: flex;
+        list-style: none ;
+        gap: 20px;
+        li{
+            color: $blue;
+            &:hover{
+                color: rgb(217, 12, 12);
+            }
+        }
+    }
+}

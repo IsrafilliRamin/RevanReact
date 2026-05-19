@@ -1,0 +1,23 @@
+node modul - 
+
+
+React - componentlerden ibaretdi
+
+component - function di
+
+
+Component ilk Herfi boyukle olmalidir Revan.jsx
+
+
+npm i (install)
+
+
+npm run dev
+
+
+css , scss-sass  , styled component , tailwind css
+next ui , ant design 
+
+
+
+(css moduludu)
