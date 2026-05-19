@@ -51,7 +51,7 @@ function App() {
   return (
 
     <div className='m-5 flex flex-col items-center justify-center gap-4'>
-<div>Ramin git</div>
+<div className='bg-yellow-600 h-52 flex items-center justify-center rounded-2xl w-6xl'>Ramin Branci </div>
  
       <FormTodo submitHandler={submitHandler} input={input} setInput={setInput} />
       <Todos todos={todos} />
